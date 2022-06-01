@@ -1,13 +1,9 @@
-FROM gbimsath/logo-maker-bot:main
+FROM python:3.9
 
 WORKDIR /app
 
-COPY requirements.txt /app/
+COPY . /app/
 
-RUN pip3 install -r requirements.txt
+RUN pip install -r requirements.txt
 
-COPY . /app
-
-#set a default command
-
-CMD python3 __main__.py
+CMD ["python", "__main__.py"]
