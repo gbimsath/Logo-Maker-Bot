@@ -18,6 +18,10 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xMalitha/Logo-Maker-Bot)
 
+## Deploy to Okteto
+
+[![Develop to Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/Team-OutruiX/Logo-Maker-Bot&branch=main)
+
 <br>
   
    
