@@ -1,1 +1,0 @@
-# Logo-Maker-Bot
