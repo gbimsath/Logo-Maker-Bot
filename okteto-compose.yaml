@@ -6,5 +6,5 @@ services:
       - API_ID=${API_ID}
       - API_HASH=${API_HASH}
       - BOT_TOKEN=${BOT_TOKEN}
-      -LOG_GROUP_ID=${LOG_GROUP_ID}
-      -MONGO_URL=${MONGO_URL}
+      - LOG_GROUP_ID=${LOG_GROUP_ID}
+      - MONGO_URL=${MONGO_URL}
