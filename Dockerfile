@@ -1,4 +1,4 @@
-FROM gbimsath/Logo-Maker-Bot:main
+FROM gbimsath/logo-maker-bot:main
 
 WORKDIR /app
 
