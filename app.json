@@ -1,15 +1,16 @@
 {
-    "name": "Mizutsuki",
-    "description": "A Telegram Bot To Create Cool Logos, Powered By Mizutsuki",
+    "name": "Outruix\X Logo Maker",
+    "description": "A Telegram Bot To Create Cool Logos, Powered By OutruiX"
+    ,"logo": https://telegra.ph/file/4d4775b8e649b411961d4.jpg"",
     "keywords": [
         "telegram",
         "logo maker",
         "logo",
         "bot"
     ],
-    "repository": "https://github.com/chathush999/c-logo-maker-bot",
-    "website": "https://t.me/Mizutsuki_update",
-    "success_url": "http://t.me/Mizutsuki_bot",
+    "repository": "https://github.com/xMalitha/Logo-Maker-Bot",
+    "website": "https://t.me/TeamOutruix",
+    "success_url": "https://t.me/TeamOutruix",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org"
@@ -19,6 +20,14 @@
         },
         "BOT_TOKEN": {
             "description": "Get this from @BotFather"
+            },
+        "LOG_GROUP_ID": {
+            "description": "For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+            "required": true
+             },
+        "MONGO_URL": {
+            "description": "Get From Here.https://www.mongodb.com/",
+            "required": true
         }
     },
     "buildpacks": [
