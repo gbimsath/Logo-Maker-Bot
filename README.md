@@ -22,9 +22,7 @@
 <br>
   
    
- - [Support Channel ](https://t.me/TeamOutruix) 
- - [Support group ](https://t.me/OutruixChat)
- - [Dev Channel  ](https://t.me/OutruixDevs)
+ [![Support Channel](https://img.shields.io/badge/TeamOutruix-Channel-orange?style=style=flat&logo=telegram)](https://t.me/TeamOutruix) [![Support Group](https://img.shields.io/badge/TeamOutruix-Support-red?style=flat&logo=telegram)](https://t.me/OutruixChat)
 
 
 ## License
