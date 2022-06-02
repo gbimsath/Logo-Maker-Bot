@@ -1,4 +1,3 @@
-# in module __main__.py
 from __main__ import app
 import pyrogram
 from pyrogram import filters, idle
