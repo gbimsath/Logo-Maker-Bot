@@ -1,5 +1,5 @@
 # in module __main__.py
-import app
+from __main__ import app
 import pyrogram
 from pyrogram import filters, idle
 from pyrogram.errors import FloodWait
