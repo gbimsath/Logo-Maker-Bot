@@ -1,4 +1,4 @@
-from main import app
+from . import app
 import pyrogram
 from pyrogram import filters, idle
 from pyrogram.errors import FloodWait
