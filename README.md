@@ -16,7 +16,7 @@
 
 ## Deploy your Logo Maker Bot (Deploy Heroku)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xMalitha/Logo-Maker-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/gbimsath/Logo-Maker-Bot)
 
 
 <br>
