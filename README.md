@@ -22,7 +22,7 @@
 <br>
   
    
- [![Support Channel](https://img.shields.io/badge/TeamOutruix-Channel-orange?style=style=flat&logo=telegram)](https://t.me/TeamOutruix) [![Support Group](https://img.shields.io/badge/TeamOutruix-Support-red?style=flat&logo=telegram)](https://t.me/OutruixChat)
+ [![Support Channel](https://img.shields.io/badge/TeamOutruix-Channel-orange?style=style=flat&logo=telegram)](https://t.me/TeamOutruix) [![Support Group](https://img.shields.io/badge/TeamOutruix-Support-red?style=flat&logo=telegram)](https://t.me/OutruixChat) [![Dev Channel](https://img.shields.io/badge/TeamOutruix-Support-green?style=flat&logo=telegram)]([![Support Group](https://img.shields.io/badge/TeamOutruix-Support-red?style=flat&logo=telegram)](https://t.me/OutruixChat))
 
 
 ## License
