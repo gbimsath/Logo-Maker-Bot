@@ -3,6 +3,7 @@ import motor.motor_asyncio
 from pyrogram.errors import *
 import asyncio
 import traceback
+from config import *
 
 class Database:
     def __init__(self, url, database_name):
@@ -95,7 +96,7 @@ async def send_msg(user_id, message):
     except Exception as e:
         return 500, f"{user_id} : {traceback.format_exc()}\n"
         
-DATABASE_URL='mongodb+srv://firstalphaupload:PjeiIgEUEA4TsZ64@cluster0.zybvd0e.mongodb.net/?retryWrites=true&w=majority'
-db = Database(DATABASE_URL, "telegraph_upload_bot")
+DATABASE_URL=MONGO_URI
+db = Database(DATABASE_URL, "LOGOMAKER")
 
 #riRH120OmGNXw5cV
