@@ -26,6 +26,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
 )
+db=database.db.db
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def help_me(bot, message):
