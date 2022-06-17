@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
-from config import AUTH_USERS
+from config import AUTH_USERS,MONGO_URI
 import database.db
 import time
 import aiofiles
