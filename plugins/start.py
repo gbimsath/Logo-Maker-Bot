@@ -5,6 +5,7 @@ from pyrogram.types import User, Message
 import os
 import requests
 import time
+from database.db import Database
 
 from io import BytesIO
 from traceback import format_exc
@@ -28,13 +29,16 @@ from pyrogram.types import (
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def help_me(bot, message):
-    USER = InlineKeyboardMarkup([[              
-                 InlineKeyboardButton('USER', url=f"https://t.me/{message.from_user.username}")
-                 ]]
-                  )
-    info = await bot.get_users(user_ids=message.from_user.id)
-    USER_DETAILS = f"[{message.from_user.mention}](tg://user?id={message.from_user.id}) [`{message.from_user.id}`] Started Ur Bot.\n\n**FROM: `{info.first_name}`**\n**LastName: `{info.last_name}`**\n**Scam: `{info.is_scam}`**\n**Restricted: `{info.is_restricted}`**\n**Status:`{info.status}`**\n**Dc Id: `{info.dc_id}`**"
-    await bot.send_message(LOG_CHANNEL, text=USER_DETAILS, reply_markup=USER)
+    chat_id = update.from_user.id
+    if not await db.is_user_exist(chat_id):
+    await db.add_user(chat_id)
+    if LOG_CHANNEL:
+            await client.send_message(
+                LOG_CHANNEL,
+                f"#NEWUSER: \n\n**User:** [{message.from_user.first_name}](tg://user?id={message.from_user.id})\n**ID:**{message.from_user.id}\n Started @{bot.username} !!",
+            )
+        else:
+            logging.info(f"#NewUser :- Name : {message.from_user.first_name} ID : {message.from_user.id}")
     file_id = S_STICKER
     await bot.send_sticker(message.chat.id, file_id)
     S_BUTTON = InlineKeyboardMarkup([[              
