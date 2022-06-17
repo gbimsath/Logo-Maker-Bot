@@ -35,7 +35,7 @@ async def on_off_antiarab(_, message: Message):
 ◇───────────────◇
 🚀 **𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮** : **{BOT_USERNAME}**
 🌺 **𝙍𝙚𝙦𝙪𝙚𝙨𝙩𝙚𝙧** : ** {message.from_user.mention} **
-🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[◤ᴵᴬᴹǤΐรhaή ᴷʳⁱˢʰᵏᵃ◢ 『🇱🇰』](https://t.me/ImGishan)**
+🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™](https://t.me/TeamOutruix)**
 ◇───────────────◇️  
 """
     await Client.send_photo(message.chat.id, photo=photo, caption=caption.format(message.from_user.mention),
