@@ -22,4 +22,4 @@ START_STING = """
 **🔮 Hello There, You Can Use Me To Create Awesome Logos...**
 ➤ Click /help Or The Button Below To Know How To Use Me
 """
-S_STICKER = os.getenv("S_STICKER")
+S_STICKER = os.getenv("S_STICKER", "CAADBQADKgYAAqf_YFVnWOiahdbj0wI")
