@@ -24,15 +24,12 @@
             },
         "LOG_CHANNEL": {
             "description": "For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
-            "required": true
              },
         "AUTH_USERS": {
             "description": "AUTH_USERS Tg User id ex: 21434343254, 1253252456",
-            "required": true
              },
         "S_STICKER": {
             "description": "START sticker id",
-            "required": 
         }
     },
     "buildpacks": [
