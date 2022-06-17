@@ -14,12 +14,14 @@ db=database.db.db
 send_msg=database.db.send_msg
 
 @Client.on_message(
-    filters.user(ADMINS) &
     filters.private &
     filters.command("broadcast") &
     filters.reply
 )
 async def broadcast(bot, update, broadcast_ids={}):
+    if update.from_user.id not in AUTH_USERS:
+        await update.delete()
+        return
     all_users = await db.get_all_users()
     broadcast_msg= update.reply_to_message
     while True:
