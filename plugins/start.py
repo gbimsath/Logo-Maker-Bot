@@ -26,6 +26,8 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
 )
+import database
+
 db=database.db.db
 
 @Client.on_message(filters.private & filters.command(["start"]))
