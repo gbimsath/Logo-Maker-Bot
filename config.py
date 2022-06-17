@@ -1,10 +1,7 @@
 
 import os  
-from dotenv import load_dotenv
 from pyrogram.types import *
 
-
-load_dotenv()
 
 # Get it from my.telegram.org
 API_ID = int(os.getenv("API_ID"))
