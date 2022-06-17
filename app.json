@@ -15,21 +15,27 @@
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org"
+            "value": "24323"
         },
         "API_HASH": {
             "description": "Get this value from my.telegram.org"
+            "value": "3jfoj43098-43i-iuopu[90[pu[po[ujkj;"
         },
         "BOT_TOKEN": {
             "description": "Get this from @BotFather"
+            "value": ""
             },
         "LOG_CHANNEL": {
             "description": "For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+            "value": "-10089379534754"
              },
         "AUTH_USERS": {
             "description": "AUTH_USERS Tg User id ex: 21434343254, 1253252456",
+            "value": "1884885842"
              },
         "S_STICKER": {
             "description": "START sticker id",
+            "value": "188uj48ujlu;85842ujiksur9eu90uxc"
         }
     },
     "buildpacks": [
