@@ -23,3 +23,15 @@ START_STING = """
 ➤ Click /help Or The Button Below To Know How To Use Me
 """
 S_STICKER = os.getenv("S_STICKER", "CAADBQADKgYAAqf_YFVnWOiahdbj0wI")
+
+HELP = """
+**🖼 How To Use Me ?**
+**To Make Logo -** `/logo Your Name`
+**To Make Square Logo - ** `/logosq Your Name`
+**♻️ Example:** 
+`/logo Pakeya`
+"""
+HELP_BTN = InlineKeyboardMarkup([[
+                 InlineKeyboardButton("𝕮𝖑𝖔𝖒𝖘𝖊", callback_data="cloce")
+                 ]]
+                 )
