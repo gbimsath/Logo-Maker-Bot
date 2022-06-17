@@ -47,7 +47,7 @@ async def status(bot, update):
     if not await db.is_user_exist(update.from_user.id):
          await db.add_user(update.from_user.id)
          
-    await bot.send_sticker(update.chat.id, random.choice(STAT_STICKER))
+    await bot.send_sticker(update.chat.id, "CAADAgAD8QEAAladvQohKm5i6iYv7gI")
     total_users = await db.total_users_count()
     text = "**Bot Advanced Statistics 📊**\n"
     text += f"\n**Total Users:** `{total_users}`"
