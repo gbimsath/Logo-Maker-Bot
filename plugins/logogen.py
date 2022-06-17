@@ -38,7 +38,7 @@ async def on_off_antiarab(_, message: Message):
 🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™](https://t.me/TeamOutruix)**
 ◇───────────────◇️  
 """
-    await Client.send_photo(chat_id=message.chat.id, photo=photo, caption=caption.format(message.from_user.mention),
+    await message.reply_photo(photo=photo, caption=caption.format(message.from_user.mention),
                  reply_markup=InlineKeyboardMarkup(
             [
                 [
