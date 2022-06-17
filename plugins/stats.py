@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from config import AUTH_USERS
+from config import AUTH_USERS,MONGO_URI
 import database.db
 import random
 
