@@ -27,7 +27,7 @@
             "required": true
              },
         "AUTH_USERS": {
-            "description": "AUTH_USERS Tg User id ex: 21434343254 1253252456",
+            "description": "AUTH_USERS Tg User id ex: 21434343254, 1253252456",
             "required": true
              },
         "S_STICKER": {
