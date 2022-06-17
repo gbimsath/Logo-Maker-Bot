@@ -22,12 +22,12 @@
         "BOT_TOKEN": {
             "description": "Get this from @BotFather"
             },
-        "LOG_GROUP_ID": {
+        "LOG_CHANNEL": {
             "description": "For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
             "required": true
              },
-        "MONGO_URL": {
-            "description": "Get From Here.https://www.mongodb.com/",
+        "S_STICKER": {
+            "description": "START sticker id",
             "required": true
         }
     },
