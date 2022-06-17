@@ -14,7 +14,7 @@ db=database.db.db
 send_msg=database.db.send_msg
 
 @Client.on_message(
-    filters.user([f"{AUTH_USERS}"]) &
+    filters.user(ADMINS) &
     filters.private &
     filters.command("broadcast") &
     filters.reply
