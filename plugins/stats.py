@@ -6,8 +6,11 @@ import random
 db=database.db.db
 
 
-@Client.on_message(filters.user(config.ADMIN) & filters.command("status"), group=5)
+@Client.on_message(filters.command("status"), group=5)
 async def status(bot, update):
+    if upsdate.from_user.id not in AUTH_USERS:
+        await update.delete()
+        return 
     if not await db.is_user_exist(update.from_user.id):
          await db.add_user(update.from_user.id)
          
