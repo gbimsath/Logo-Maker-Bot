@@ -43,3 +43,19 @@ async def help_me(bot, message):
         disable_web_page_preview=True,
         quote=True
     )
+@Client.on_message(filters.command("help"))
+async def help(bot, message):
+  await bot.send_sticker(message.cha.id, S_STICKER)
+  await message.reply_message(text=HELP,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Back", callback_data="start_menu")]]))
+
+    
+    
+@Client.on_callback_query(filters.regex("start_menu"))
+async def start_menu(_,query):
+  await query.answer()
+  await query.message.edit(START_STING,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Help", callback_data="help_menu"),InlineKeyboardButton(text="Repo", url="https://github.com/TechShreyash/TechZ-Logo-Maker-Bot")]]))
+
+@Client.on_callback_query(filters.regex("help_menu"))
+async def help_menu(_,query):
+  await query.answer()
+  await query.message.edit(HELP,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Back", callback_data="start_menu")]]))
