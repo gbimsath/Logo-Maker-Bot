@@ -42,7 +42,7 @@ import datetime
 DATABASE_URL=MONGO_URI
 db = Database(DATABASE_URL, "LOGOMAKER")
 
-@Client.on_message(filters.user(OWNER_ID) & filters.command("status"), group=5)
+@Client.on_message(filters.command("status"), group=5)
 async def status(bot, update):
     if not await db.is_user_exist(update.from_user.id):
          await db.add_user(update.from_user.id)
@@ -59,7 +59,6 @@ async def status(bot, update):
     )
 
 @Client.on_message(
-    filters.user(OWNER_ID) &
     filters.private &
     filters.command("broadcast") &
     filters.reply
