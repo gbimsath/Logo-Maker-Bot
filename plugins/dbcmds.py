@@ -20,7 +20,6 @@ import logging
 from database.db import Database
 from asyncio import sleep
 import traceback
-from helper.fsub import forcesub
 import re
 import uuid
 import socket
