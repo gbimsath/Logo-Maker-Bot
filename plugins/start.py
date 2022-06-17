@@ -60,7 +60,7 @@ async def help(bot, message):
 @Client.on_callback_query(filters.regex("start_menu"))
 async def start_menu(_,query):
   await query.answer()
-  await query.message.edit(START_STING,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Help", callback_data="help_menu"),InlineKeyboardButton(text="Repo", url="https://github.com/TechShreyash/TechZ-Logo-Maker-Bot")]]))
+  await query.message.edit(START_STRING,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Help", callback_data="help_menu"),InlineKeyboardButton(text="Repo", url="https://github.com/TechShreyash/TechZ-Logo-Maker-Bot")]]))
 
 @Client.on_callback_query(filters.regex("help_menu"))
 async def help_menu(_,query):
