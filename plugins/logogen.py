@@ -10,7 +10,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
 )
-
+import wget
 
 @Client.on_message(filters.command("logo"))
 async def on_off_antiarab(_, message: Message):
