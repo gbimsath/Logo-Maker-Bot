@@ -52,7 +52,7 @@ async def help_me(bot, message):
     )
 @Client.on_message(filters.command("help"))
 async def help(bot, message):
-  await bot.send_sticker(message.cha.id, S_STICKER)
+  await bot.send_sticker(message.chat.id, S_STICKER)
   await message.reply_message(text=HELP,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Back", callback_data="start_menu")]]))
 
     
