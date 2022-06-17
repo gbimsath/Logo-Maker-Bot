@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-import config
+from  config import *
 import database.db
 import random
 
