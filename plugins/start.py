@@ -37,9 +37,16 @@ async def help_me(bot, message):
     await bot.send_message(LOG_CHANNEL, text=USER_DETAILS, reply_markup=USER)
     file_id = S_STICKER
     await bot.send_sticker(message.chat.id, file_id)
+    S_BUTTON = InlineKeyboardMarkup([[              
+                 InlineKeyboardButton('• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™', url=f"https://t.me/TeamOutruix")
+                 ],
+                 [
+                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{bot.username}t?startgroup=true")
+                 ]]
+                  )
     await message.reply_text(
         text=START_STRING,
-        reply_markup=START_BUTTON.format(bot.username),
+        reply_markup=S_BUTTON,
         disable_web_page_preview=True,
         quote=True
     )
