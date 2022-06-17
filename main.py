@@ -12,7 +12,7 @@ bot=Client(
 
 bot.start()
 uname = (bot.get_me()).username
-a = f"""
+print(f"""
 {uname} has been deployed!
-"""
+""")
 idle()
