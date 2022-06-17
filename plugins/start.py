@@ -29,11 +29,11 @@ from pyrogram.types import (
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def help_me(bot, message):
-    chat_id = update.from_user.id
+    chat_id = message.from_user.id
     if not await db.is_user_exist(chat_id):
         await db.add_user(chat_id)
         if LOG_CHANNEL:
-            await client.send_message(
+            await bot.send_message(
                 LOG_CHANNEL,
                 f"#NEWUSER: \n\n**User:** [{message.from_user.first_name}](tg://user?id={message.from_user.id})\n**ID:**{message.from_user.id}\n Started @{bot.username} !!",
             )
