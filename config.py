@@ -8,6 +8,7 @@ API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 LOG_CHANNEL = int(os.getenv("LOG_CHANNEL"))
 BOT_TOKEN = os.getenv("BOT_TOKEN")
+MONGO_URI = os.getenv("MONGO_URI")
 AUTH_USERS = int(os.getenv("AUTH_USERS", "1884885842"))
 ADMINS = [AUTH_USERS]
 START_STRING = """
