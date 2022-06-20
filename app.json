@@ -28,6 +28,10 @@
             "description": "Your API_ID from https://my.telegram.org/apps ",
             "value": ""
         },
+        "AUTH_USERS": {
+            "description": "Sudo Users Id ex: 23435232 32532524 325325978",
+            "value": ""
+        },
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps",
             "value": ""
