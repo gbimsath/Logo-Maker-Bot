@@ -42,7 +42,7 @@ async def on_off_antiarab(_, message: Message):
 🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™](https://t.me/TeamOutruix)**
 ◇───────────────◇️  
 """
-    await bot.send_chat_action(update.chat.id, enums.ChatAction.UPLOAD_DOCUMENT)
+    await _.send_chat_action(update.chat.id, enums.ChatAction.UPLOAD_DOCUMENT)
     time.sleep(3)
     await message.reply_photo(photo=photo, caption=caption.format(message.from_user.mention),
                  reply_markup=InlineKeyboardMarkup(
