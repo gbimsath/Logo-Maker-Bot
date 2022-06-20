@@ -10,11 +10,11 @@
     "env": {
         "MONGO_URI": {
             "description": "Get iT fROM MONGODB.COM",
-            "value": "1884885842"
+            "value": ""
         },
         "S_STICKER": {
             "description": "Start Sticker File Id",
-            "value": ""
+            "value": "CAADBQADRQUAAvnxgVVEz9_CU_XHwQI"
         },
         "LOG_CHANNEL": {
             "description": "Log Channel Id",
