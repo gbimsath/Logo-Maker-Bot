@@ -11,6 +11,10 @@ from pyrogram.types import (
     Message,
 )
 import wget
+from pyrogram import enums
+import asyncio
+from asyncio import *
+
 
 @Client.on_message(filters.command("logo"))
 async def on_off_antiarab(_, message: Message):
@@ -38,6 +42,8 @@ async def on_off_antiarab(_, message: Message):
 🍀 **𝙋𝙤𝙬𝙚𝙧𝙙 𝘽𝙮**  : **[• 𝙊𝙪𝙩𝙧𝙪𝙞𝙓 • ™](https://t.me/TeamOutruix)**
 ◇───────────────◇️  
 """
+    await bot.send_chat_action(update.chat.id, enums.ChatAction.UPLOAD_DOCUMENT)
+    time.sleep(3)
     await message.reply_photo(photo=photo, caption=caption.format(message.from_user.mention),
                  reply_markup=InlineKeyboardMarkup(
             [
