@@ -37,6 +37,10 @@
             "description": "START sticker id",
             "value": "188uj48ujlu;85842ujiksur9eu90uxc"
         }
+        "MONGO_URI": {
+            "description": "Get this from mongodb.com",
+            "value": ""
+             }
     },
     "buildpacks": [
         { 
