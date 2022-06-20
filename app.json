@@ -35,7 +35,7 @@
              },
         "S_STICKER": {
             "description": "START sticker id",
-            "value": "188uj48ujlu;85842ujiksur9eu90uxc"
+            "value": "CAADBQADRQUAAvnxgVVEz9_CU_XHwQI"
         }
         "MONGO_URI": {
             "description": "Get this from mongodb.com",
