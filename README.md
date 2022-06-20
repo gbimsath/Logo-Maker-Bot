@@ -5,12 +5,12 @@
 
 
 <p align="center">
-    <img src="https://img.shields.io/github/license/xMalitha/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/xMalitha/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/xMalitha/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
-    <img src="https://img.shields.io/github/issues/xMalitha/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Issues">
-    <img src="https://img.shields.io/github/forks/xMalitha/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/xMalitha/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Stars">
+    <img src="https://img.shields.io/github/license/gbimsath/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/gbimsath/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/gbimsath/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/issues/gbimsath/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Issues">
+    <img src="https://img.shields.io/github/forks/gbimsath/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Forks">
+    <img src="https://img.shields.io/github/stars/gbimsath/Logo-Maker-Bot?style=for-the-badge&logo=appveyor" alt="Stars">
     
 </p><br>
 
@@ -22,7 +22,7 @@
 <br>
   
    
- [![Support Channel](https://img.shields.io/badge/TeamOutruix-Channel-orange?style=style=flat&logo=telegram)](https://t.me/TeamOutruix) [![Support Group](https://img.shields.io/badge/TeamOutruix-Support-red?style=flat&logo=telegram)](https://t.me/OutruixChat) [![Dev Channel](https://img.shields.io/badge/TeamOutruix-Support-green?style=flat&logo=telegram)](https://t.me/OutruixDevs)
+ [![Support Channel](https://img.shields.io/badge/TeamOutruix-Channel-orange?style=style=flat&logo=telegram)](https://t.me/TeamOutruix) [![Support Group](https://img.shields.io/badge/TeamOutruix-Support-red?style=flat&logo=telegram)](https://t.me/OutruixChat) [![Dev Channel](https://img.shields.io/badge/TeamOutruix-Dev-green?style=flat&logo=telegram)](https://t.me/OutruixDevs)
 
 
 ## License
