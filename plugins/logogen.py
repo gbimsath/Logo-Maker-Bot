@@ -14,7 +14,7 @@ import wget
 from pyrogram import enums
 import asyncio
 from asyncio import *
-
+import time
 
 @Client.on_message(filters.command("logo"))
 async def on_off_antiarab(_, message: Message):
