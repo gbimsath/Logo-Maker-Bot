@@ -1,49 +1,37 @@
 {
     "name": "OutruiX Logo Maker",
-    "description": "A Telegram Bot To Create Cool Logos, Powered By OutruiX"
-    ,"logo": "https://telegra.ph/file/4d4775b8e649b411961d4.jpg",
-    "stack": "container",
-    "keywords": [
-        "telegram",
-        "logo maker",
-        "logo",
-        "bot"
-    ],
+    "description": "A Telegram Bot To Create Cool Logos, Powered By OutruiX",
     "repository": "https://github.com/gbimsath/Logo-Maker-Bot",
-    "website": "https://t.me/TeamOutruix",
-    "success_url": "https://t.me/TeamOutruix",
+    "logo": "https://telegra.ph/file/4d4775b8e649b411961d4.jpg",
+    "keywords": ["telegram",
+                 "logo maker",
+                 "logo",
+                 "bot"],
     "env": {
+        "MONGO_URI": {
+            "description": "Get iT fROM MONGODB.COM",
+            "value": "1884885842"
+        },
+        "S_STICKER": {
+            "description": "Start Sticker File Id",
+            "value": ""
+        },
+        "LOG_CHANNEL": {
+            "description": "Log Channel Id",
+            "value": ""
+        },
         "API_ID": {
-            "description": "Get this value from my.telegram.org"
-            "value": "24323"
+            "description": "Your API_ID from https://my.telegram.org/apps ",
+            "value": ""
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org"
-            "value": "3jfoj43098-43i-iuopu[90[pu[po[ujkj;"
-        },
-        "BOT_TOKEN": {
-            "description": "Get this from @BotFather"
+            "description": "Your API_HASH from https://my.telegram.org/apps",
             "value": ""
-            },
-        "LOG_CHANNEL": {
-            "description": "For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
-            "value": "-10089379534754"
-             },
-        "AUTH_USERS": {
-            "description": "AUTH_USERS Tg User id ex: 21434343254, 1253252456",
-            "value": "1884885842"
-             },
-        "S_STICKER": {
-            "description": "START sticker id",
-            "value": "CAADBQADRQUAAvnxgVVEz9_CU_XHwQI"
         }
-        "MONGO_URI": {
-            "description": "Get this from mongodb.com",
-            "value": ""
-             }
     },
+    "stack": "heroku-20",
     "buildpacks": [
-        { 
+        {
             "url": "heroku/python"
         }
     ],
