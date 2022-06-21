@@ -21,7 +21,7 @@
 
 <br>
   
-   
+ ## Connect with us  
  [![Support Channel](https://img.shields.io/badge/TeamOutruix-Channel-orange?style=style=flat&logo=telegram)](https://t.me/TeamOutruix) [![Support Group](https://img.shields.io/badge/TeamOutruix-Support-red?style=flat&logo=telegram)](https://t.me/OutruixChat) [![Dev Channel](https://img.shields.io/badge/TeamOutruix-Dev-green?style=flat&logo=telegram)](https://t.me/OutruixDevs)
 
 
