@@ -1,5 +1,5 @@
 <p align="center">
-      <img style="width:100px; height: 100px;"  src="https://telegra.ph/file/2cc2cb4cadd712544973d.jpg"></p>
+      <!--<img style="width:100px; height: 100px;"  src="https://telegra.ph/file/2cc2cb4cadd712544973d.jpg"></p> -->
 <h1 align="center"><b>Logo Maker Bot ✨</b></h1>
 <h2 align="center"><b>PowerFul Logo Maker Bot 🤖</b></h2>
 
