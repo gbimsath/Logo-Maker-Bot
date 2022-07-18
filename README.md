@@ -1,6 +1,6 @@
 <p align="center">
       <img style="width:100px; height: 100px;"  src="https://telegra.ph/file/2cc2cb4cadd712544973d.jpg"></p>
-<h1 align="center"><b>OutruiX Logo Maker Bot ✨</b></h1>
+<h1 align="center"><b>Logo Maker Bot ✨</b></h1>
 <h2 align="center"><b>PowerFul Logo Maker Bot 🤖</b></h2>
 
 
@@ -21,9 +21,6 @@
 
 <br>
   
- ## Connect with us  
- [![Support Channel](https://img.shields.io/badge/TeamOutruix-Channel-orange?style=style=flat&logo=telegram)](https://t.me/TeamOutruix) [![Support Group](https://img.shields.io/badge/TeamOutruix-Support-red?style=flat&logo=telegram)](https://t.me/OutruixChat) [![Dev Channel](https://img.shields.io/badge/TeamOutruix-Dev-green?style=flat&logo=telegram)](https://t.me/OutruixDevs)
-
 
 ## License
 
@@ -33,14 +30,12 @@ This Bot licensed under [GNU Affero General Public License](https://www.gnu.org/
 ## Special Thanks
 
 - [Gishankrishka](https://github.com/Gishankrishka2)
-- [Malitha Mihiranga](https://github.com/xMalitha)
  
  ## Contributions
 #### Contributions are welcome.
 
 ![Contributors](https://contrib.rocks/image?repo=gbimsath/Logo-Maker-Bot)
 
-TeamOutruix
-                 <br>  <h2>  • OD • 
+
                            
                     
